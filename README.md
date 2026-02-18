@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📅 SaaS de Agendamento — Backend
 
-## Getting Started
+API desenvolvida para gerenciamento de agendamentos, permitindo que empresas cadastrem serviços, profissionais e horários disponíveis, enquanto clientes podem realizar reservas de forma simples e organizada.
 
-First, run the development server:
+Projeto criado com foco em boas práticas de arquitetura, autenticação segura e estrutura escalável para aplicações SaaS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Tecnologias utilizadas
+
+* Node.js
+* Express
+* PostgreSQL
+* Arquitetura em camadas (Controller, Service, Repository)
+
+---
+
+## 🔐 Funcionalidades
+
+✔ Cadastro e login de usuários
+✔ Cadastro de serviços
+✔ Cadastro de profissionais
+✔ Criação e gerenciamento de agendamentos
+✔ Estrutura preparada para multiempresa (SaaS)
+
+---
+
+## 📂 Estrutura do projeto
+
+```
+src/
+ ├── controllers
+ ├── services
+ ├── repositories
+ ├── routes
+ ├── config
+ └── app.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Arquitetura pensada para facilitar manutenção, testes e crescimento da aplicação.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ▶️ Como rodar o projeto
 
-## Learn More
+```bash
+# clonar repositório
+git clone URL_DO_REPO
 
-To learn more about Next.js, take a look at the following resources:
+# entrar na pasta
+cd projeto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# instalar dependências
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# rodar aplicação
+npm run dev
+```
 
-## Deploy on Vercel
+A API estará disponível em:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+http://localhost:3000
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎯 Objetivo do projeto
+
+Este projeto faz parte do meu portfólio como Desenvolvedor Full Stack, demonstrando:
+
+* construção de APIs REST
+* autenticação segura
+* organização profissional de código
+* modelagem de dados
+* preparação para aplicações SaaS reais
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Rodrigo Martins**
+Em transição para Desenvolvedor Full Stack 🚀
